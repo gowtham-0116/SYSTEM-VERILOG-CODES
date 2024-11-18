@@ -12,7 +12,7 @@ module class_example;
       $display("tr1.a=%0d",tr1.a);
       $display("tr2.a=%0d",tr2.a);
       tr2.a=2;
-      $display("tr2.a=%0d",tr2.a);
+      $display("tr1.a=%0d",tr1.a);
       $display("tr2.a=%0d",tr2.a);
     end
 endmodule
