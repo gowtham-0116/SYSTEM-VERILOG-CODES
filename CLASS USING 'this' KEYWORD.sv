@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 class packet;
   bit[31:0]addr;
   bit[31:0]data;
@@ -30,7 +32,8 @@ endmodule
  
 /*OUTPUT
 
-  addr = 10
-  data = 0
-  write = 1
-  pkt_type = GOOD_PACKET*/
+ -------------------------------
+ addr = 10
+ data = 0
+ write = 1
+ pkt_type = GOOD_PACKET*/
