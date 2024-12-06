@@ -2,7 +2,7 @@ module string_testbench;
   string my_string;
 
   initial begin
-    my_string = "SystemVerilog";
+    my_string = "SystemVerilog"; 
     $display("Original string: %s", my_string);
 
     $display("ASCII value of first character: %0d", my_string.getc(0));
