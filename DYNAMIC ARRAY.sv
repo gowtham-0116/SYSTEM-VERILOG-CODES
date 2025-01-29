@@ -1,3 +1,5 @@
+// Code your testbench here
+// or browse Examples
 module dynamic_array;
   int dyn_arr[];
   initial begin
@@ -28,3 +30,32 @@ module dynamic_array;
     $display("Size of dyn_arr after deleting=%0d",dyn_arr.size());
   end
 endmodule
+
+
+
+/*output
+    Default Size of dyn_arr=0
+ Size of  dyn_arr=4
+dyn_arr[0] = 1
+dyn_arr[1] = 2
+dyn_arr[2] = 3
+dyn_arr[3] = 4
+Size of dyn_arr after resizing=7
+dyn_arr[0] = 1
+dyn_arr[1] = 2
+dyn_arr[2] = 3
+dyn_arr[3] = 4
+dyn_arr[4] = 0
+dyn_arr[5] = 0
+dyn_arr[6] = 0
+Size of dyn_arr after resizing=10
+dyn_arr[0] = 0
+dyn_arr[1] = 0
+dyn_arr[2] = 0
+dyn_arr[3] = 0
+dyn_arr[4] = 0
+dyn_arr[5] = 0
+dyn_arr[6] = 0
+dyn_arr[7] = 0
+dyn_arr[8] = 0
+dyn_arr[9] = 0*/
